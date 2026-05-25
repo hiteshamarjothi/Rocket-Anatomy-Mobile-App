@@ -50,12 +50,12 @@ React Native's cross-platform model meant the same codebase ran on both iOS and 
 
 ## Tech Stack
 
-| Layer | Tool |
-|-------|------|
-| Framework | React Native |
-| Dev & Testing | Expo Go |
-| Editor | Visual Studio Code |
-| Design & Prototyping | Figma |
+| Layer                | Tool               |
+| -------------------- | ------------------ |
+| Framework            | React Native       |
+| Dev & Testing        | Expo Go            |
+| Editor               | Visual Studio Code |
+| Design & Prototyping | Figma              |
 
 ---
 

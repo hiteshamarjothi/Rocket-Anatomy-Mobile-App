@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "RocketryAnatomyV3",
+    "slug": "RocketryAnatomyV3",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./app/assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#25282E",
+      "plugins": [
+        [
+          "expo-font",
+          {
+            "fonts": "node_modules/@expo-google-fonts/Exo/Exo-Regular.ttf"
+          },
+          "expo-font",
+          {
+            "fonts": "node_modules/@expo-google-fonts/Exo/Exo_600SemiBold.ttf"
+          }
+        ]
+      ]
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.uravgstudent.RocketryAnatomyV3"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "com.uravgstudent.RocketryAnatomyV3"
+    },
+    "web": {
+      "favicon": "./app/assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c6f1a3db-f001-4ad4-86fc-74e324a1576a"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
